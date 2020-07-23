@@ -1,3 +1,5 @@
+# systemd process instead of old-fashioned deprecated rc.local
+
 cp rclocal.sh /usr/local/bin/
 cp rclocal.service /etc/systemd/system/
 
